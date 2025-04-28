@@ -4,4 +4,3 @@ Open the file prototype.ipynb in Google Colab or Jupyter Notebook. Make sure the
 
 Download app.py and all .csv files, making sure they are in the same file. In your terminal, navigate to the folder with the files and run the command streamlit run app.py.
 
-Alternatively, the visualization can be accessed here: https://visualizationredesign-az3nrfsd589rbvs8djehyb.streamlit.app/
