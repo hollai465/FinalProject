@@ -47,34 +47,50 @@ x = df['D5'].str[0].astype('category').cat.codes
 def update_plot(selected_y_column):
     y = df[selected_y_column].str[0].astype('category').cat.codes
 
+    countries = df['A1'].astype('category')
+    country_labels = countries.cat.categories
+    color_values = countries.cat.codes
+
     jitter_strength = 0.5
     x_jittered = x + np.random.uniform(-jitter_strength, jitter_strength, size=len(x))
     y_jittered = y + np.random.uniform(-jitter_strength, jitter_strength, size=len(y))
 
-    plt.figure(figsize=(8, 6))
-    plt.scatter(x_jittered, y_jittered)
+    plt.figure(figsize=(10, 8))
 
-    slope, intercept = np.polyfit(x_jittered, y_jittered, 1)  # 1 for linear fit
+    cmap = matplotlib.colors.ListedColormap(sns.color_palette("colorblind", as_cmap=False))
+
+    # Scatter plot
+    scatter = plt.scatter(x_jittered, y_jittered, c=color_values, cmap=cmap, alpha=0.8)
+
+    # Create custom legend
+    handles = []
+    for i, country in enumerate(country_labels):
+        hex_color = matplotlib.colors.to_hex(cmap(i % len(cmap.colors)))  # Use the colorblind-safe palette
+        handles.append(plt.Line2D([0], [0], marker='o', color='w',
+                                  label=country,
+                                  markerfacecolor=hex_color, markersize=6))
+
+    plt.legend(handles=handles, title='Country', loc='upper right', framealpha=0.9, fontsize='small', title_fontsize='medium')
+
+    # Best fit line
+    slope, intercept = np.polyfit(x_jittered, y_jittered, 1)
     line_x = np.linspace(x_jittered.min(), x_jittered.max(), 100)
     line_y = slope * line_x + intercept
-
     plt.plot(line_x, line_y, color='red', label='Best Fit Line')
 
-    y_pred = slope * x_jittered + intercept  # Predicted y values from the line
+    # R-squared calculation
     correlation_matrix = np.corrcoef(x_jittered, y_jittered)
     correlation_coefficient = correlation_matrix[0, 1]
-    r_squared = correlation_coefficient ** 2  # R-squared
+    r_squared = correlation_coefficient ** 2
 
     plt.text(0.05, 0.95, f'R² = {r_squared:.2f}', transform=plt.gca().transAxes, fontsize=12, verticalalignment='top')
-
-    # Show legend
-    plt.legend()
 
     plt.title(f'Agreement with Statement: {column_descriptions[selected_y_column]}')
     plt.xlabel('Time Spent Playing ACNH')
     plt.ylabel("Level of Agreement (Strongly Disagree - Strongly Agree)")
 
-    # Display the plot
+    plt.tight_layout()  # Default tight layout is enough now
+
     st.pyplot(plt)
 
 # Call the update_plot function to render the plot
