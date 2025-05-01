@@ -366,7 +366,7 @@ with tab5:
         plt.tight_layout()
         plt.xticks(rotation=45)
 
-        plt.yticks([1, 5], y_tick_labels[selected_y_column], rotation=90)
+        plt.yticks([1, 4.5], y_tick_labels[selected_y_column], rotation=90)
         for label in plt.gca().get_yticklabels():
             label.set_verticalalignment('center')
 
