@@ -118,6 +118,8 @@ We would like to acknowledge Prof. Luyao Zhang, who gave us feedback on the init
 **Disclaimer**:  
 This final project is for INFOSCI 301 Data Visualization and Information Aesthetics, instructed by Prof. Luyao Zhang at Duke Kunshan University in Spring 2025.
 
+This project was built with interactivity in mind, and so has been designed to run either locally or via the cloud with Streamlit. As such, this is the only version of code that was developed past the prototype visualization phase.
+
 **Data**:  
 We implemented data from Vuong et al.'s multinational dataset of game players’ behaviors in a virtual world and environmental perceptions (https://www.scidb.cn/en/detail?dataSetId=cb5d36cce29f4e5695a586c9b85d04b6&dataSetType=journal) and the Peoples' Climate Vote (https://peoplesclimate.vote/data-center).
 To enable direct comparison, country names were standardized (e.g., “Viet Nam” to “Vietnam”), and responses from Dataset 2 were scaled to match Dataset 1’s 1–5 Likert format. Only overlapping countries were retained.
