@@ -132,3 +132,7 @@ We implemented data from Vuong et al.'s multinational dataset of game players’
 - UNDP & University of Oxford (2021). People’s Climate Vote.  
 - Vuong, Q.-H., et al. (2021). Animal Crossing Survey Dataset. Sciengine.  
 - Wilkinson, L. (2005). The Grammar of Graphics. Springer.
+
+## Project Poster
+You can view or download the project poster here:  
+[Project Poster (PDF)](https://www.canva.com/design/DAGl_vI2hgA/zMRxZjftLiQBL0fkRGfbDg/edit)
