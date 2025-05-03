@@ -135,4 +135,4 @@ We implemented data from Vuong et al.'s multinational dataset of game players’
 
 ## Project Poster
 You can view or download the project poster here:  
-![Project Poster](./project_poster.jpg)
+![Project Poster](./project_poster.png)
