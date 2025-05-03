@@ -48,6 +48,11 @@ This project supports:
 
 **SDG 17: Partnerships for the Goals** – The project bridges disciplines including game design, environmental science, and psychology. By combining gameplay data with public opinion datasets, it demonstrates how cross-sector collaboration can support innovative climate solutions.
 
+<p align="center">
+  <img src="./SDG13.png" alt="SDG 13: Climate Action" width="150"/>
+  <img src="./SDG17.png" alt="SDG 17: Partnerships for the Goals" width="150"/>
+</p>
+
 ---
 
 ## Visualizations Included
@@ -118,7 +123,6 @@ We implemented data from Vuong et al.'s multinational dataset of game players’
 
 ---
 ## Project Poster
-You can view or download the project poster here:  
 ![Project Poster](./project_poster.png)
 ---
 ## Demo Video
