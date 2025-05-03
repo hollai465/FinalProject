@@ -55,10 +55,7 @@ This project supports:
 
 2. **Boxplot** – Compares environmental opinions by favorite in-game activity. Highlights medians, spread, and outliers for each player group.
 
-3. **Grouped Bar Chart** – Contrasts climate concern levels between general populations and players across countries. Uses color and alignment for clear comparison.
-
-All charts support:
-- **Hover-based interaction** for tooltip insights  
+3. **Grouped Bar Chart** – Contrasts climate concern levels between general populations and players across countries. Uses color and alignment for clear comparison. 
 
 **Ethics & Accessibility:**  
 - **FAIR Principles** – Ensures reusability and clarity (Wilkinson et al., 2016)  
