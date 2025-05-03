@@ -15,7 +15,8 @@ This project investigates whether playing environmentally themed video games—s
 - [Intellectual and Professional Growth](#intellectual-and-professional-growth)
 - [Navigation Instructions](#navigation-instructions)
 - [Project Information](#project-information)
-- [Embedded Media](#embedded-media)
+- [Project Poster](#project-poster)
+- [Demo Video](#demo-video)
 - [References](#references)
 
 ---
@@ -116,7 +117,14 @@ This final project is for INFOSCI 301 Data Visualization and Information Aesthet
 We implemented data from Vuong et al.'s multinational dataset of game players’ behaviors in a virtual world and environmental perceptions (https://www.scidb.cn/en/detail?dataSetId=cb5d36cce29f4e5695a586c9b85d04b6&dataSetType=journal) and the Peoples' Climate Vote (https://peoplesclimate.vote/data-center).
 
 ---
-
+## Project Poster
+You can view or download the project poster here:  
+![Project Poster](./project_poster.png)
+---
+## Demo Video
+You can watch a demo of the project here:
+[![Watch the demo](./Thumbnail.png)]([https://www.youtube.com/watch?v=VIDEO_ID](https://drive.google.com/file/d/18UMcVZ9day9tlzNL5rI8ObcdQ4TsZYj0/view?usp=sharing))
+---
 ## References
 
 - Anscombe, F. J. (1973). Graphs in Statistical Analysis. The American Statistician.  
@@ -133,6 +141,5 @@ We implemented data from Vuong et al.'s multinational dataset of game players’
 - Vuong, Q.-H., et al. (2021). Animal Crossing Survey Dataset. Sciengine.  
 - Wilkinson, L. (2005). The Grammar of Graphics. Springer.
 
-## Project Poster
-You can view or download the project poster here:  
-![Project Poster](./project_poster.png)
+
+
