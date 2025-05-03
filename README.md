@@ -127,7 +127,7 @@ We implemented data from Vuong et al.'s multinational dataset of game players’
 ---
 ## Demo Video
 You can watch a demo of the project here:
-[![Watch the demo](./Thumbnail.png)]([https://www.youtube.com/watch?v=VIDEO_ID](https://drive.google.com/file/d/18UMcVZ9day9tlzNL5rI8ObcdQ4TsZYj0/view?usp=sharing))
+[![Watch the demo](./Thumbnail.png)](https://drive.google.com/file/d/18UMcVZ9day9tlzNL5rI8ObcdQ4TsZYj0/view?usp=sharing)
 ---
 ## References
 
